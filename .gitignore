@@ -131,3 +131,5 @@ dmypy.json
 # data folder
 training/
 test/
+test2/
+tmp/
