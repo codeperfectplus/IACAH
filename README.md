@@ -21,3 +21,6 @@ The dataset will contain the following:
 Submissions are evaluated on Accuracy Score between the predicted and the actual labels on the test dataset
 
 - You can download the dataset from this [Drive Link](https://drive.google.com/drive/folders/1O8TT0s4zMyiI6zR-biVRoiLiAUy-W1H0?usp=sharing). The dataset consists of a README file.
+
+## Solution
+Created custom data pipeline to load data into batches and trained the Model using custom traning loop used VGG16 as feature extractor and used Dropout to avoid overfitting. we used some Data augmentation technique to make model more robust and better. we are using MODELCHECKPOINT and EARLYSTOPPING function to get the best model possible.
