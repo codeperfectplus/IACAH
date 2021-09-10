@@ -10,7 +10,7 @@ This Hackathon will be hosted online with all times Indian Standard Time (IST). 
 
 ## Problem Statement
 
-During the event, participants will be working on a problem of Image classification. The input dataset will consist of images containing Hindi characters. The challenge is to identify the presence of a character in images using Convolutional Neural Networks.
+The challenge is to identify the presence of a character in images using Convolutional Neural Networks.
 
 The dataset will contain the following:
 
@@ -23,4 +23,5 @@ Submissions are evaluated on Accuracy Score between the predicted and the actual
 - You can download the dataset from this [Drive Link](https://drive.google.com/drive/folders/1O8TT0s4zMyiI6zR-biVRoiLiAUy-W1H0?usp=sharing). The dataset consists of a README file.
 
 ## Solution
+
 Created custom data pipeline to load data into batches and trained the Model using custom traning loop used VGG16 as feature extractor and used Dropout to avoid overfitting. we used some Data augmentation technique to make model more robust and better. we are using MODELCHECKPOINT and EARLYSTOPPING function to get the best model possible.
