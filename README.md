@@ -12,6 +12,8 @@ This Hackathon will be hosted online with all times Indian Standard Time (IST). 
 
 The challenge is to identify the presence of a character in images using Convolutional Neural Networks.
 
+## Dataset
+
 The dataset will contain the following:
 
 - Train Dataset: Consists of sample reference sets which can be used by participants to train the Convolution Neural Network. The participants are recommended to use their own training dataset if required.
